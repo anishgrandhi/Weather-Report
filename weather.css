@@ -1,0 +1,79 @@
+section:nth-of-type(1) {
+	margin: -5px -5px;
+	margin-top: -25px;
+}
+
+header {
+	height: 100px;
+	width: auto;
+	background-image: url("http://syque.com/ds/pix/summer_hols_07/dolphin_sky_panorama_1_800.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 25px;
+	font-family: Arial, sans-serif;
+}
+
+section:nth-of-type(1) div {
+	font-size: 17px;
+	margin-left: 30px;
+}
+
+label {
+	font-weight: bold;
+}
+
+input[type=text] {
+	border: 2px solid #cbc5cc;
+	border-radius: 8px;
+	width: 200px;
+	height: 20px;
+	box-shadow: 2px 2px 2px #ece8ed;
+}
+
+input[type=button] {
+	background-color: #d6d8d8;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #9fa0a0;
+	height: 25px;
+	width: auto;
+	position: relative;
+	margin-left: 10px;
+}
+
+section:nth-of-type(2) {
+	position: relative;
+	margin-top: 25px;
+	margin-left: 200px;
+}
+
+caption {
+	background-color: #c0dbe0;
+}
+
+table {	
+	border-spacing: 2px 2px;
+	height: auto;
+	width: 400px;
+}
+
+td {
+	padding: 5px 5px 5px 5px;
+}
+
+section:nth-of-type(3) div p,article {
+	float: left;
+	width: 49%;
+	display: inline;
+}
+
+section:nth-of-type(3) {
+	position: absolute;
+	margin-top: -150px;
+	margin-left: 750px;
+	font-size: 17px;
+}

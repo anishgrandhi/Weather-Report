@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A Weather Web Application</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="weather.js"></script>
+    <link rel="stylesheet" type="text/css" href="weather.css">
+  </head>
+  <body onload="initialize();">
+  <!-- Section 1 -->
+  <section>
+  <header>
+  	<h1>Weather Reporting</h1>
+  </header>
+  <div>
+  <p> Type in a city name to know the weather conditions of the city at this moment</p>
+    <form>
+       <label>City: <input type="text" id="form-input" placeholder="Enter a valid City Name" /></label>
+       <input type="button" onclick="sendRequest()" value="Display Info"/>
+    </form>
+    <!-- Search Engine of Open weather map is very flexible. Even though the entered city name is incorrect or partial, it tries to match it with a possible city and gives the weather report. The more precise city name you put the more precise list you will get. -->
+   </div>
+   </section>
+    <!-- Section 2 -->
+   <section id="output">
+   </section>
+    <!-- Section 3 -->
+   <section>
+    	<table>
+    		<tr>
+    			<td id="description"></td>
+    			<td id="logo"></td>
+    		</tr>
+    	</table>
+    	<p id="suggestion1"></p>
+    	<p id="suggestion2"></p>
+   </section>
+
+  </body>
+</html>
